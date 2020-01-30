@@ -1,0 +1,4 @@
+services:
+  srr\EventSubscriber\ExceptionSubscriber:
+    arguments:
+      $debug: '%kernel.debug%'
